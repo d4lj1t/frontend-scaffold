@@ -1,0 +1,55 @@
+/**
+ * Grid
+ */
+@grid-gutter-width: 16px;
+@container-tablet: 100%;
+@container-desktop: ((944px + @grid-gutter-width));
+@container-large-desktop: ((1154px + @grid-gutter-width));
+
+
+/**
+ * Typography
+ */
+@font-main-family : 'Trebuchet MS', Helvetica, Arial, sans-serif;
+@font-family-sans-serif : 'Open Sans', 'Trebuchet MS', Helvetica, Arial, sans-serif;
+@font-family-sans-serif-condensed : 'Open Sans Condensed', 'Trebuchet MS', Helvetica, Arial, sans-serif;
+@font-serif-family : 'Playfair Display', Baskerville, Georgia, serif;
+@font-main-size-value  : 14;
+@font-main-size : ~"@{font-main-size-value}px";
+@font-mobile-size-value : 14;
+@font-mobile-size: ~"@{font-mobile-size-value}px";
+
+
+
+
+/**
+ * Colors
+ */
+@color-hof-pink : #e10098;		//Pink
+@color-hof-bluex : #005091;		//Blue
+@color-hof-bluexsale : blue; 	//Blue
+@color-brand-sale : #009ca6;	//Teal
+@color-white : #FFF;			//White
+@color-black : #000;
+@color-red-sale : #da291c;		//Red
+@color-in-stock : #0b5a0b ; 	// Green
+@color-green : #329922; 	// Green
+@color-out-of-stock : #FF0000;  // Red
+@color-yellow-sale : #ffd100;	//Yellow
+
+/**
+ * general helper variables
+ */
+@line-height: 28px;
+@margin-text: .5em;
+@border: 1px solid white;
+@site-min-width : 320px;
+@images-path : '../../images/';
+
+// Helpers: set standard padding and margin values, thick and thin
+@helper-standard: 10px;
+@helper-thick: @helper-standard*2;
+@helper-thin: @helper-standard/2;
+@helper-extra-thin: @helper-standard/3;
+@helper-extra-thick: @helper-standard*3;
+@highest-z-index : 5000; // No z-index should go higher than this one

@@ -1,0 +1,23 @@
+{
+  "name": "frontend-js-boilerplate",
+  "version": "0.0.1",
+  "description": "",
+  "homepage": "https://github.com/dlopuch/frontend-js-boilerplate",
+  "authors": [
+    "Dan Lopuch <dlopuch@gmail.com>"
+  ],
+  "license": "GPLv2",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.2.0",
+    "lodash": "~2.4.1",
+    "requirejs": "~2.1.15"
+  }
+}

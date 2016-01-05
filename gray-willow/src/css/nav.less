@@ -1,0 +1,31 @@
+header {
+  color: white;
+
+  .nav-inner-tab{}
+
+  .nav-tab {
+    list-style: none;
+    .inline-block();
+  }
+
+  @media (max-width: @screen-sm-max) {
+    .logo-container{
+      .border-bottom();
+    }
+
+    .nav-tab {
+      .border-bottom();
+      .display-block();
+
+      &:hover {
+        background-color: lightslategrey;
+        .transition-fade();
+      }
+
+      &:last-child {
+        border: none;
+      }
+    }
+  }
+
+}
