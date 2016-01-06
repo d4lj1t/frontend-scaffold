@@ -13,3 +13,9 @@ console.log('What kind of foo, you ask? Let lodash explain:',
             return concatenation + (i > 0 ? ', ' : '') + s;
         }, '')
 );
+
+
+
+require('jquery', function( ) {
+    console.log( 'jel' ); // OK
+});
